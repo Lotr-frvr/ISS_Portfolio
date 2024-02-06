@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>My Blogs Page</title>
+  <link rel="stylesheet" href="blog.css">
+  <script src="blog.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <article>
+      <h2>What is a blog?</h2>
+      <p>A blog is a type of website or online platform where an individual or a group of people regularly post written content, typically in a reverse chronological order. The term "blog" is a shortened form of "weblog."
+
+        Blogs serve various purposes, including personal expression, sharing knowledge, documenting experiences, promoting products or services, or discussing specific topics of interest. They often include text, images, videos, and links to other resources.</p>
+    
+      
+      <button id="likeButton1" class="like-button" onclick="toggleLike('likeButton1')">Like</button>
+<p id="likeStatus1">0 Likes</p>
+<h2>Comment Box</h2>
+<textarea id="commentInput" rows="4" cols="50"></textarea><br>
+<button class="like-button"onclick="addComment()">Add Comment</button>
+
+
+</article>
+
+    <article>
+      <h2>So my blog...</h2>
+      <p>I don't think this one is anythin akin to above mentioned uhmm stuff, but it has an option for like/unlike toggling and adding comments(sort of). So try it out.</p>
+    
+    <button id="likeButton2" class="like-button" onclick="toggleLike('likeButton2')">Like</button>
+<p id="likeStatus2">0 Likes</p>
+<h2>Comment Box</h2>
+<textarea id="commentInput" rows="4" cols="50"></textarea><br>
+<button class="like-button" onclick="addComment()">Add Comment</button>
+
+
+</article>
+  </div>
+
+</body>
+
+</html>
